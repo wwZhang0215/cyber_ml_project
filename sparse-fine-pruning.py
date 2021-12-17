@@ -13,7 +13,7 @@ def sparse_fine_pruning(model_path, data_path, X, epochs):
     prune_model = keras.models.clone_model(bd_model)
     prune_model.set_weights(bd_model.get_weights())
 
-    print(prune_model.summary())
+    # print(prune_model.summary())
 
     # get clean valid data
     eval_data = h5py.File(data_path, 'r')
@@ -70,8 +70,9 @@ def sparse_fine_pruning(model_path, data_path, X, epochs):
 if __name__ == '__main__':
     model_path = sys.argv[1]
     data_path = sys.argv[2]
-    X = [0.1, 0.3, 0.5, 0.7, 0.9]
+    X = [0.1, 0.2, 0.3, 0.4, 0.5]
     epochs = 71
-    # for k in X:
-    #     sparse_fine_pruning(model_path, data_path, k, epochs)
-    sparse_fine_pruning(model_path, data_path, 0.5, epochs)
+    for k in X:
+        print(k)
+        sparse_fine_pruning(model_path, data_path, k, epochs)
+    # sparse_fine_pruning(model_path, data_path, 0.2, epochs)
