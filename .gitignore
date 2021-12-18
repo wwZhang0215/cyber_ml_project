@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 data/*.h5
-data/Multi-trigger Multi-target/*.h5
+data/Multi-trigger/*.h5
 .idea/
-*.h5
+tempmodels/*.h5

@@ -67,12 +67,33 @@ def sparse_fine_pruning(model_path, data_path, X, epochs):
             prune_model.save(file_name)
 
 
+def continue_training(model_path, data_path, epochs):
+    # get clean valid data
+    eval_data = h5py.File(data_path, 'r')
+    x_data = np.array(eval_data['data'])
+    y_data = np.array(eval_data['label'])
+    x_data = x_data.transpose((0, 2, 3, 1))
+
+    model = keras.models.load_model(model_path)
+    model.compile(
+        loss=tf.keras.losses.SparseCategoricalCrossentropy(),
+        optimizer='adam',
+        metrics=['accuracy'])
+
+    model.fit(x_data, y_data, epochs=epochs)
+    model.save(model_path)
+
+
 if __name__ == '__main__':
     model_path = sys.argv[1]
     data_path = sys.argv[2]
+    extend = sys.argv[3]
     # X = [0.1, 0.2, 0.3, 0.4, 0.5]
     # epochs = 71
     # for k in X:
     #     print(k)
     #     sparse_fine_pruning(model_path, data_path, 0.4, epochs)
-    sparse_fine_pruning(model_path, data_path, 0.3, 41)
+    if extend == 'True':
+        continue_training(model_path, data_path, 10)
+    else:
+        sparse_fine_pruning(model_path, data_path, 0.3, 41)

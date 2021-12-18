@@ -51,6 +51,8 @@
    1. The DNN architecture used to train the face recognition model is the state-of-the-art DeepID network. This DNN is backdoored with multiple triggers. Each trigger is associated with its own target label. 
    2. To evaluate the backdoored model, execute `eval.py` by running:  
       `python3 eval.py <clean validation data directory> <model directory>`.
+
+      
       
       E.g., `python3 eval.py data/clean_validation_data.h5  models/sunglasses_bd_net.h5`. Clean data classification accuracy on the provided validation dataset for sunglasses_bd_net.h5 is 97.87 %.
 
@@ -58,10 +60,11 @@
    1. The repaired network for all 4 bad nets are: `models/repair_sunglasses_bd_net.h5` `models/repair_anonymous_1_bd_net.h5` `models/repair_anonymous_2_bd_net.h5` `models/repair_multi_trigger_multi_target_bd_net.h5`. 
    They are created by runing command:
 
-      `python3 sparse-fine-pruning.py <model path> <clean data path>`
-      e.g.`python3 sparse-fine-pruning.py models/anonymous_1_bd_net.h5 data/clean_validation_data.h5`
-   
+      `python3 sparse-fine-pruning.py <model path> <clean data path> <extend learning(True|False)>`
+      e.g.`python3 sparse-fine-pruning.py models/anonymous_1_bd_net.h5 data/clean_validation_data.h5 False` will try to repair `anonymous_1_bd_net` using `clean_validation_data`
 
+      When `<extend learning(True|False)>` is set to `True`, the script will train the selected model 10 epochs on selected dataset and replace the original model file.
+   
    2. Each repaired network has a corresponding evaluation script:
       -  `models/repair_sunglasses_bd_net.h5`:`Geval_Sunglasses.py`
       -  `models/repair_anonymous_1_bd_net.h5`:`Geval_Anonymous_1.py`
