@@ -1,4 +1,6 @@
-# CSAW-HackML-2020
+# MLforCyberSec Project
+##### Wenwei Zhang(wz2037) Linnan Zhang(lz2400) Tianhao Wang(tw2245)
+### Link to [Github](https://github.com/wwZhang0215/cyber_ml_project)
 
 ```bash
 ├── data 
@@ -19,7 +21,16 @@
     └── anonymous_1_bd_weights.h5
     └── anonymous_2_bd_net.h5
     └── anonymous_2_bd_weights.h5
+    └── repair_sunglasses_bd_net.h5
+    └── repair_anonymous_1_bd_net.h5
+    └── repair_anonymous_2_bd_net.h5
+    └── repair_multi_trigger_multi_target_bd_net.h5
 ├── architecture.py
+├── sparse-fine-pruning.py
+├── Geval_Anonymous_1.py
+├── Geval_Anonymous_2.py
+├── Geval_Multi_trigger.py
+├── Geval_Sunglasses.py
 └── eval.py // this is the evaluation script
 ```
 
@@ -29,7 +40,7 @@
    3. Numpy 1.16.3
    4. Matplotlib 2.2.2
    5. H5py 2.9.0
-   6. TensorFlow-gpu 1.15.2
+   6. TensorFlow 2.7.0
    
 ## II. Validation Data
    1. Download the validation and test datasets from [here](https://drive.google.com/drive/folders/13o2ybRJ1BkGUvfmQEeZqDo1kskyFywab?usp=sharing) and store them under `data/` directory.
@@ -43,8 +54,22 @@
       
       E.g., `python3 eval.py data/clean_validation_data.h5  models/sunglasses_bd_net.h5`. Clean data classification accuracy on the provided validation dataset for sunglasses_bd_net.h5 is 97.87 %.
 
-## IV. Evaluating the Submissions
-The teams should submit a single eval.py script for each of the four BadNets provided to you. In other words, your submission should include four eval.py scripts, each corresponding to one of the four BadNets provided. YouTube face dataset has classes in range [0, 1282]. So, your eval.py script should output a class in range [0, 1283] for a test image w.r.t. a specific backdoored model. Here, output label 1283 corresponds to poisoned test image and output label in [0, 1282] corresponds to the model's prediction if the test image is not flagged as poisoned. Effectively, design your eval.py with input: a test image (in png or jpeg format), output: a class in range [0, 1283]. Output 1283 if the test image is poisoned, else, output the class in range [0,1282].
+## IV. Repair Network
+   1. The repaired network for all 4 bad nets are: `models/repair_sunglasses_bd_net.h5` `models/repair_anonymous_1_bd_net.h5` `models/repair_anonymous_2_bd_net.h5` `models/repair_multi_trigger_multi_target_bd_net.h5`. 
+   They are created by runing command:
 
-Teams should submit their solutions using GitHub. All your models (and datasets) should be uploaded to the GitHub repository. If your method relies on any dataset with large size, then upload the data to a shareable drive and provide the link to the drive in the GitHub repository. To efficiently evaluate your work, provide a README file with clear instructions on how to run the eval.py script with an example.
-For example: `python3 eval_anonymous_2.py data/test_image.png`. Here, eval_anonymous_2.py is designed for anonynous_2_bd_net.h5 model. Output should be either 1283 (if test_image.png is poisoned) or one class in range [0, 1282] (if test_image.png is not poisoned).
+      `python3 sparse-fine-pruning.py <model path> <clean data path>`
+      e.g.`python3 sparse-fine-pruning.py models/anonymous_1_bd_net.h5 data/clean_validation_data.h5`
+   
+
+   2. Each repaired network has a corresponding evaluation script:
+      -  `models/repair_sunglasses_bd_net.h5`:`Geval_Sunglasses.py`
+      -  `models/repair_anonymous_1_bd_net.h5`:`Geval_Anonymous_1.py`
+      -  `models/repair_anonymous_2_bd_net.h5`:`Geval_Anonymous_2.py`
+      -  `models/repair_multi_trigger_multi_target_bd_net.h5`:`Geval_Multi_trigger.py`
+
+      Each script can be run by:
+      - `python3 Geval_*.py`
+
+## V. Project Report
+   Project report can be read [here](ProjectReport.pdf).

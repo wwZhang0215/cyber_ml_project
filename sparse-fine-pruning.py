@@ -75,4 +75,4 @@ if __name__ == '__main__':
     # for k in X:
     #     print(k)
     #     sparse_fine_pruning(model_path, data_path, 0.4, epochs)
-    sparse_fine_pruning(model_path, data_path, 0.2, 41)
+    sparse_fine_pruning(model_path, data_path, 0.3, 41)
