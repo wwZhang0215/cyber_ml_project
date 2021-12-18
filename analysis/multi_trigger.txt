@@ -1,0 +1,362 @@
+repair_multi_trigger_multi_target_bd_net_0.1_0.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 77.17069368667187
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.3522992985191
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 77.17069368667187
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 89.039360872954
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 77.17069368667187
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.019485580670303974
+Average Clean Classification accuracy: 77.17069368667187
+Average Attack Success Rate: 56.803715250714475
+repair_multi_trigger_multi_target_bd_net_0.1_10.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.56664068589244
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.56664068589244
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.13639906469212784
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.56664068589244
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 81.56664068589244
+Average Attack Success Rate: 0.045466354897375945
+repair_multi_trigger_multi_target_bd_net_0.1_20.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.41621200311769
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.41621200311769
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.11691348402182386
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.41621200311769
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.41621200311769
+Average Attack Success Rate: 0.038971161340607956
+repair_multi_trigger_multi_target_bd_net_0.1_30.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.67342166796571
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.009742790335151987
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.67342166796571
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.67342166796571
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.67342166796571
+Average Attack Success Rate: 0.02922837100545596
+repair_multi_trigger_multi_target_bd_net_0.1_40.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.78020265003897
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.78020265003897
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.08768511301636789
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.78020265003897
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.09742790335151988
+Average Clean Classification accuracy: 83.78020265003897
+Average Attack Success Rate: 0.061704338789295925
+repair_multi_trigger_multi_target_bd_net_0.1_50.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.72564302416212
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.72564302416212
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.72564302416212
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.03897116134060795
+Average Clean Classification accuracy: 83.72564302416212
+Average Attack Success Rate: 0.02922837100545596
+repair_multi_trigger_multi_target_bd_net_0.1_60.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.9360872954014
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.9360872954014
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.08768511301636789
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.9360872954014
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.30202650038971157
+Average Clean Classification accuracy: 83.9360872954014
+Average Attack Success Rate: 0.1299038711353598
+repair_multi_trigger_multi_target_bd_net_0.1_70.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.79579111457521
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.79579111457521
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.79579111457521
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.79579111457521
+Average Attack Success Rate: 0.025980774227071967
+repair_multi_trigger_multi_target_bd_net_0.2_0.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 78.05923616523772
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 65.91971940763834
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 78.05923616523772
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 64.38035853468433
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 78.05923616523772
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 25.516367887763053
+Average Clean Classification accuracy: 78.05923616523772
+Average Attack Success Rate: 51.938815276695244
+repair_multi_trigger_multi_target_bd_net_0.2_10.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 80.96648480124708
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 80.96648480124708
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 3.780202650038971
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 80.96648480124708
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.009742790335151987
+Average Clean Classification accuracy: 80.96648480124708
+Average Attack Success Rate: 1.2633151467913744
+repair_multi_trigger_multi_target_bd_net_0.2_20.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 78.97895557287607
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 78.97895557287607
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.7112236944660951
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 78.97895557287607
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 78.97895557287607
+Average Attack Success Rate: 0.2370745648220317
+repair_multi_trigger_multi_target_bd_net_0.2_30.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.11457521434139
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.11457521434139
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.11457521434139
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.009742790335151987
+Average Clean Classification accuracy: 81.11457521434139
+Average Attack Success Rate: 0.019485580670303978
+repair_multi_trigger_multi_target_bd_net_0.2_40.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.73577552611067
+Average Attack Success Rate: 0.01623798389191998
+repair_multi_trigger_multi_target_bd_net_0.2_50.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.53078721745908
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.019485580670303974
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.53078721745908
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.53078721745908
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.53078721745908
+Average Attack Success Rate: 0.02273317744868797
+repair_multi_trigger_multi_target_bd_net_0.2_60.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.54091971940764
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.029228371005455965
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.54091971940764
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.4579111457521434
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.54091971940764
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.04871395167575994
+Average Clean Classification accuracy: 82.54091971940764
+Average Attack Success Rate: 0.1786178228111198
+repair_multi_trigger_multi_target_bd_net_0.2_70.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.86593920498831
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.86593920498831
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.09742790335151988
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.86593920498831
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.86593920498831
+Average Attack Success Rate: 0.03247596778383996
+repair_multi_trigger_multi_target_bd_net_0.3_0.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 79.11145752143413
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 57.21940763834762
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 79.11145752143413
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 61.47700701480904
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 79.11145752143413
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 5.144193296960249
+Average Clean Classification accuracy: 79.11145752143413
+Average Attack Success Rate: 41.28020265003897
+repair_multi_trigger_multi_target_bd_net_0.3_10.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.75136399064692
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.03897116134060795
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.75136399064692
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 17.49805144193297
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.75136399064692
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.019485580670303974
+Average Clean Classification accuracy: 82.75136399064692
+Average Attack Success Rate: 5.85216939464796
+repair_multi_trigger_multi_target_bd_net_0.3_20.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.50740452065472
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.50740452065472
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.06819953234606392
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.50740452065472
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.50740452065472
+Average Attack Success Rate: 0.038971161340607956
+repair_multi_trigger_multi_target_bd_net_0.3_30.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.03897116134060795
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.73577552611067
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.73577552611067
+Average Attack Success Rate: 0.012990387113535984
+repair_multi_trigger_multi_target_bd_net_0.3_40.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 85.1987529228371
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.03897116134060795
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 85.1987529228371
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.11691348402182386
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 85.1987529228371
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 85.1987529228371
+Average Attack Success Rate: 0.051961548454143934
+repair_multi_trigger_multi_target_bd_net_0.3_50.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.33047544816836
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.019485580670303974
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.33047544816836
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.33047544816836
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.03897116134060795
+Average Clean Classification accuracy: 82.33047544816836
+Average Attack Success Rate: 0.04546635489737594
+repair_multi_trigger_multi_target_bd_net_0.3_60.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.3772408417771
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.10717069368667187
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.3772408417771
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.3772408417771
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.3772408417771
+Average Attack Success Rate: 0.051961548454143934
+repair_multi_trigger_multi_target_bd_net_0.3_70.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 84.52065471551052
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 84.52065471551052
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.08768511301636789
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 84.52065471551052
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 84.52065471551052
+Average Attack Success Rate: 0.02922837100545596
+repair_multi_trigger_multi_target_bd_net_0.4_0.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 72.4551831644583
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 79.80319563522993
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 72.4551831644583
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 73.01247077162898
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 72.4551831644583
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.40919719407638344
+Average Clean Classification accuracy: 72.4551831644583
+Average Attack Success Rate: 51.07495453364509
+repair_multi_trigger_multi_target_bd_net_0.4_10.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 80.7560405300078
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.06819953234606392
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 80.7560405300078
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 1.2373343725643025
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 80.7560405300078
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0779423226812159
+Average Clean Classification accuracy: 80.7560405300078
+Average Attack Success Rate: 0.46115874253052747
+repair_multi_trigger_multi_target_bd_net_0.4_20.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 77.48246297739672
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 77.48246297739672
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 77.48246297739672
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 77.48246297739672
+Average Attack Success Rate: 0.025980774227071967
+repair_multi_trigger_multi_target_bd_net_0.4_30.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 80.0
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 80.0
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.009742790335151987
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 80.0
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 80.0
+Average Attack Success Rate: 0.003247596778383996
+repair_multi_trigger_multi_target_bd_net_0.4_40.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.93296960249415
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.93296960249415
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.3897116134060795
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.93296960249415
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 81.93296960249415
+Average Attack Success Rate: 0.12990387113535984
+repair_multi_trigger_multi_target_bd_net_0.4_50.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.45752143413874
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.45752143413874
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.03897116134060795
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.45752143413874
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.03897116134060795
+Average Clean Classification accuracy: 81.45752143413874
+Average Attack Success Rate: 0.025980774227071967
+repair_multi_trigger_multi_target_bd_net_0.4_60.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.23460639127046
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.23460639127046
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.029228371005455965
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.23460639127046
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.23460639127046
+Average Attack Success Rate: 0.009742790335151989
+repair_multi_trigger_multi_target_bd_net_0.4_70.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.92283710054559
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.92283710054559
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.92283710054559
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.009742790335151987
+Average Clean Classification accuracy: 82.92283710054559
+Average Attack Success Rate: 0.02922837100545596
+repair_multi_trigger_multi_target_bd_net_0.5_0.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 75.79890880748246
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 66.75759937646141
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 75.79890880748246
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.4968823070927514
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 75.79890880748246
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 7.803975058456741
+Average Clean Classification accuracy: 75.79890880748246
+Average Attack Success Rate: 25.019485580670302
+repair_multi_trigger_multi_target_bd_net_0.5_10.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.58222915042869
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.58222915042869
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 1.9290724863600937
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.58222915042869
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.009742790335151987
+Average Clean Classification accuracy: 81.58222915042869
+Average Attack Success Rate: 0.6462717588984151
+repair_multi_trigger_multi_target_bd_net_0.5_20.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.82385035074046
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.82385035074046
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 3.906858924395947
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.82385035074046
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 81.82385035074046
+Average Attack Success Rate: 1.3022863081319824
+repair_multi_trigger_multi_target_bd_net_0.5_30.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 79.56352299298518
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 79.56352299298518
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.08768511301636789
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 79.56352299298518
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 79.56352299298518
+Average Attack Success Rate: 0.02922837100545596
+repair_multi_trigger_multi_target_bd_net_0.5_40.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 81.06780982073266
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 81.06780982073266
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.12665627435697585
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 81.06780982073266
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 81.06780982073266
+Average Attack Success Rate: 0.04221875811899195
+repair_multi_trigger_multi_target_bd_net_0.5_50.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.0576773187841
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.0576773187841
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.05845674201091193
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.0576773187841
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.0576773187841
+Average Attack Success Rate: 0.019485580670303978
+repair_multi_trigger_multi_target_bd_net_0.5_60.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 83.3904910366329
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 83.3904910366329
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.0779423226812159
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 83.3904910366329
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 83.3904910366329
+Average Attack Success Rate: 0.025980774227071967
+repair_multi_trigger_multi_target_bd_net_0.5_70.h5
+Clean Classification accuracy on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 82.64224473889323
+Attack Success Rate on  data/Multi-trigger/eyebrows_poisoned_data.h5 : 0.0
+Clean Classification accuracy on  data/Multi-trigger/lipstick_poisoned_data.h5 : 82.64224473889323
+Attack Success Rate on  data/Multi-trigger/lipstick_poisoned_data.h5 : 0.04871395167575994
+Clean Classification accuracy on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 82.64224473889323
+Attack Success Rate on  data/Multi-trigger/sunglasses_poisoned_data.h5 : 0.0
+Average Clean Classification accuracy: 82.64224473889323
+Average Attack Success Rate: 0.01623798389191998
+
+Process finished with exit code 0

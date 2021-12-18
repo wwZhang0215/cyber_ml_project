@@ -1,0 +1,24 @@
+repair_sunglasses_bd_net_0.4_0.h5
+Clean Classification accuracy: 69.79734996102884
+Attack Success Rate: 7.669524551831644
+repair_sunglasses_bd_net_0.4_10.h5
+Clean Classification accuracy: 79.8207326578332
+Attack Success Rate: 0.02338269680436477
+repair_sunglasses_bd_net_0.4_20.h5
+Clean Classification accuracy: 81.4809041309431
+Attack Success Rate: 0.13250194855806702
+repair_sunglasses_bd_net_0.4_30.h5
+Clean Classification accuracy: 81.54325798908808
+Attack Success Rate: 0.00779423226812159
+repair_sunglasses_bd_net_0.4_40.h5
+Clean Classification accuracy: 81.44972720187062
+Attack Success Rate: 0.01558846453624318
+repair_sunglasses_bd_net_0.4_50.h5
+Clean Classification accuracy: 83.9360872954014
+Attack Success Rate: 0.03897116134060795
+repair_sunglasses_bd_net_0.4_60.h5
+Clean Classification accuracy: 83.8269680436477
+Attack Success Rate: 0.04676539360872954
+repair_sunglasses_bd_net_0.4_70.h5
+Clean Classification accuracy: 83.72564302416212
+Attack Success Rate: 0.14809041309431023

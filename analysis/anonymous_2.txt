@@ -1,0 +1,80 @@
+repair_anonymous_2_bd_net_0.1_0.h5
+Clean Classification accuracy: 80.30397505845674
+repair_anonymous_2_bd_net_0.1_10.h5
+Clean Classification accuracy: 77.95791114575215
+repair_anonymous_2_bd_net_0.1_20.h5
+Clean Classification accuracy: 80.55339049103664
+repair_anonymous_2_bd_net_0.1_30.h5
+Clean Classification accuracy: 80.80280592361653
+repair_anonymous_2_bd_net_0.1_40.h5
+Clean Classification accuracy: 83.49181605611847
+repair_anonymous_2_bd_net_0.1_50.h5
+Clean Classification accuracy: 83.3203429462198
+repair_anonymous_2_bd_net_0.1_60.h5
+Clean Classification accuracy: 84.32579890880749
+repair_anonymous_2_bd_net_0.1_70.h5
+Clean Classification accuracy: 83.22681215900234
+repair_anonymous_2_bd_net_0.2_0.h5
+Clean Classification accuracy: 76.601714731099
+repair_anonymous_2_bd_net_0.2_10.h5
+Clean Classification accuracy: 78.49571317225254
+repair_anonymous_2_bd_net_0.2_20.h5
+Clean Classification accuracy: 80.69368667186282
+repair_anonymous_2_bd_net_0.2_30.h5
+Clean Classification accuracy: 82.8137178487919
+repair_anonymous_2_bd_net_0.2_40.h5
+Clean Classification accuracy: 81.8394388152767
+repair_anonymous_2_bd_net_0.2_50.h5
+Clean Classification accuracy: 80.34294621979735
+repair_anonymous_2_bd_net_0.2_60.h5
+Clean Classification accuracy: 83.28916601714731
+repair_anonymous_2_bd_net_0.2_70.h5
+Clean Classification accuracy: 82.93063133281372
+repair_anonymous_2_bd_net_0.3_0.h5
+Clean Classification accuracy: 80.2182385035074
+repair_anonymous_2_bd_net_0.3_10.h5
+Clean Classification accuracy: 80.29618082618862
+repair_anonymous_2_bd_net_0.3_20.h5
+Clean Classification accuracy: 81.47310989867498
+repair_anonymous_2_bd_net_0.3_30.h5
+Clean Classification accuracy: 81.23148869836321
+repair_anonymous_2_bd_net_0.3_40.h5
+Clean Classification accuracy: 81.81605611847233
+repair_anonymous_2_bd_net_0.3_50.h5
+Clean Classification accuracy: 83.67887763055339
+repair_anonymous_2_bd_net_0.3_60.h5
+Clean Classification accuracy: 81.79267342166796
+repair_anonymous_2_bd_net_0.3_70.h5
+Clean Classification accuracy: 84.06079501169134
+repair_anonymous_2_bd_net_0.4_0.h5
+Clean Classification accuracy: 76.50818394388152
+repair_anonymous_2_bd_net_0.4_10.h5
+Clean Classification accuracy: 80.85736554949338
+repair_anonymous_2_bd_net_0.4_20.h5
+Clean Classification accuracy: 80.70148090413095
+repair_anonymous_2_bd_net_0.4_30.h5
+Clean Classification accuracy: 77.56040530007795
+repair_anonymous_2_bd_net_0.4_40.h5
+Clean Classification accuracy: 79.22057677318784
+repair_anonymous_2_bd_net_0.4_50.h5
+Clean Classification accuracy: 82.18238503507405
+repair_anonymous_2_bd_net_0.4_60.h5
+Clean Classification accuracy: 81.39516757599377
+repair_anonymous_2_bd_net_0.4_70.h5
+Clean Classification accuracy: 83.11769290724864
+repair_anonymous_2_bd_net_0.5_0.h5
+Clean Classification accuracy: 74.67653936087295
+repair_anonymous_2_bd_net_0.5_10.h5
+Clean Classification accuracy: 79.81293842556508
+repair_anonymous_2_bd_net_0.5_20.h5
+Clean Classification accuracy: 81.25487139516757
+repair_anonymous_2_bd_net_0.5_30.h5
+Clean Classification accuracy: 82.14341387373344
+repair_anonymous_2_bd_net_0.5_40.h5
+Clean Classification accuracy: 82.82930631332813
+repair_anonymous_2_bd_net_0.5_50.h5
+Clean Classification accuracy: 82.22915042868277
+repair_anonymous_2_bd_net_0.5_60.h5
+Clean Classification accuracy: 82.14341387373344
+repair_anonymous_2_bd_net_0.5_70.h5
+Clean Classification accuracy: 84.551831644583

@@ -70,9 +70,9 @@ def sparse_fine_pruning(model_path, data_path, X, epochs):
 if __name__ == '__main__':
     model_path = sys.argv[1]
     data_path = sys.argv[2]
-    X = [0.1, 0.2, 0.3, 0.4, 0.5]
-    epochs = 71
-    for k in X:
-        print(k)
-        sparse_fine_pruning(model_path, data_path, k, epochs)
-    # sparse_fine_pruning(model_path, data_path, 0.2, epochs)
+    # X = [0.1, 0.2, 0.3, 0.4, 0.5]
+    # epochs = 71
+    # for k in X:
+    #     print(k)
+    #     sparse_fine_pruning(model_path, data_path, 0.4, epochs)
+    sparse_fine_pruning(model_path, data_path, 0.2, 41)

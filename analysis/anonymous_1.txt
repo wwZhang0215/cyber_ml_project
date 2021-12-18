@@ -1,0 +1,120 @@
+repair_anonymous_1_bd_net_0.1_0.h5
+Clean Classification accuracy: 77.87996882307094
+Attack Success Rate: 70.90802805923616
+repair_anonymous_1_bd_net_0.1_10.h5
+Clean Classification accuracy: 82.04208885424785
+Attack Success Rate: 0.2240841777084957
+repair_anonymous_1_bd_net_0.1_20.h5
+Clean Classification accuracy: 82.93842556508184
+Attack Success Rate: 0.03897116134060795
+repair_anonymous_1_bd_net_0.1_30.h5
+Clean Classification accuracy: 82.9618082618862
+Attack Success Rate: 0.21434138737334374
+repair_anonymous_1_bd_net_0.1_40.h5
+Clean Classification accuracy: 85.00389711613407
+Attack Success Rate: 0.05845674201091193
+repair_anonymous_1_bd_net_0.1_50.h5
+Clean Classification accuracy: 83.64770070148091
+Attack Success Rate: 0.04871395167575994
+repair_anonymous_1_bd_net_0.1_60.h5
+Clean Classification accuracy: 83.49961028838659
+Attack Success Rate: 0.08768511301636789
+repair_anonymous_1_bd_net_0.1_70.h5
+Clean Classification accuracy: 84.86360093530787
+Attack Success Rate: 0.0779423226812159
+repair_anonymous_1_bd_net_0.2_0.h5
+Clean Classification accuracy: 79.77396726422448
+Attack Success Rate: 64.53624318004677
+repair_anonymous_1_bd_net_0.2_10.h5
+Clean Classification accuracy: 84.00623538581449
+Attack Success Rate: 2.7377240841777084
+repair_anonymous_1_bd_net_0.2_20.h5
+Clean Classification accuracy: 78.94777864380359
+Attack Success Rate: 0.03897116134060795
+repair_anonymous_1_bd_net_0.2_30.h5
+Clean Classification accuracy: 82.67342166796571
+Attack Success Rate: 0.24356975837879968
+repair_anonymous_1_bd_net_0.2_40.h5
+Clean Classification accuracy: 83.4684333593141
+Attack Success Rate: 0.03897116134060795
+repair_anonymous_1_bd_net_0.2_50.h5
+Clean Classification accuracy: 83.06313328137178
+Attack Success Rate: 0.26305533904910366
+repair_anonymous_1_bd_net_0.2_60.h5
+Clean Classification accuracy: 83.01636788776305
+Attack Success Rate: 0.05845674201091193
+repair_anonymous_1_bd_net_0.2_70.h5
+Clean Classification accuracy: 84.10756040530008
+Attack Success Rate: 0.029228371005455965
+repair_anonymous_1_bd_net_0.3_0.h5
+Clean Classification accuracy: 77.98129384255651
+Attack Success Rate: 67.48830865159782
+repair_anonymous_1_bd_net_0.3_10.h5
+Clean Classification accuracy: 81.32501948558067
+Attack Success Rate: 0.03897116134060795
+repair_anonymous_1_bd_net_0.3_20.h5
+Clean Classification accuracy: 83.80358534684333
+Attack Success Rate: 0.18511301636788777
+repair_anonymous_1_bd_net_0.3_30.h5
+Clean Classification accuracy: 83.28916601714731
+Attack Success Rate: 0.06819953234606392
+repair_anonymous_1_bd_net_0.3_40.h5
+Clean Classification accuracy: 83.59314107560405
+Attack Success Rate: 0.21434138737334374
+repair_anonymous_1_bd_net_0.3_50.h5
+Clean Classification accuracy: 84.03741231488698
+Attack Success Rate: 0.0779423226812159
+repair_anonymous_1_bd_net_0.3_60.h5
+Clean Classification accuracy: 85.03507404520654
+Attack Success Rate: 0.09742790335151988
+repair_anonymous_1_bd_net_0.3_70.h5
+Clean Classification accuracy: 83.33593141075603
+Attack Success Rate: 0.09742790335151988
+repair_anonymous_1_bd_net_0.4_0.h5
+Clean Classification accuracy: 75.62743569758379
+Attack Success Rate: 71.18082618862041
+repair_anonymous_1_bd_net_0.4_10.h5
+Clean Classification accuracy: 80.7950116913484
+Attack Success Rate: 2.7084957131722525
+repair_anonymous_1_bd_net_0.4_20.h5
+Clean Classification accuracy: 83.4684333593141
+Attack Success Rate: 1.539360872954014
+repair_anonymous_1_bd_net_0.4_30.h5
+Clean Classification accuracy: 81.0444271239283
+Attack Success Rate: 1.0619641465315668
+repair_anonymous_1_bd_net_0.4_40.h5
+Clean Classification accuracy: 81.47310989867498
+Attack Success Rate: 1.0814497272018706
+repair_anonymous_1_bd_net_0.4_50.h5
+Clean Classification accuracy: 83.28916601714731
+Attack Success Rate: 0.06819953234606392
+repair_anonymous_1_bd_net_0.4_60.h5
+Clean Classification accuracy: 81.94076383476228
+Attack Success Rate: 0.0779423226812159
+repair_anonymous_1_bd_net_0.4_70.h5
+Clean Classification accuracy: 82.72798129384256
+Attack Success Rate: 0.1461418550272798
+repair_anonymous_1_bd_net_0.5_0.h5
+Clean Classification accuracy: 74.79345284489479
+Attack Success Rate: 13.620420888542478
+repair_anonymous_1_bd_net_0.5_10.h5
+Clean Classification accuracy: 82.80592361652377
+Attack Success Rate: 0.09742790335151988
+repair_anonymous_1_bd_net_0.5_20.h5
+Clean Classification accuracy: 81.82385035074046
+Attack Success Rate: 0.05845674201091193
+repair_anonymous_1_bd_net_0.5_30.h5
+Clean Classification accuracy: 82.36165237724084
+Attack Success Rate: 0.0779423226812159
+repair_anonymous_1_bd_net_0.5_40.h5
+Clean Classification accuracy: 83.35151987529228
+Attack Success Rate: 0.08768511301636789
+repair_anonymous_1_bd_net_0.5_50.h5
+Clean Classification accuracy: 81.41855027279813
+Attack Success Rate: 0.05845674201091193
+repair_anonymous_1_bd_net_0.5_60.h5
+Clean Classification accuracy: 83.16445830085738
+Attack Success Rate: 0.1558846453624318
+repair_anonymous_1_bd_net_0.5_70.h5
+Clean Classification accuracy: 83.16445830085738
+Attack Success Rate: 0.26305533904910366

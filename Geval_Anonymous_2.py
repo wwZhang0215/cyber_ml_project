@@ -46,7 +46,10 @@ if __name__ == '__main__':
     clean_data_filename = "data/clean_test_data.h5"
     #poisoned_data_filename = "data/anonymous_1_poisoned_data.h5"
     bd_model_filename = "models/anonymous_2_bd_net.h5"
-    for i in [0.1, 0.2, 0.3, 0.4, 0.5]:
-        for j in [0, 10, 20, 30, 40, 50, 60, 70]:
-            prune_model_filename = "repair_anonymous_2_bd_net_" + str(i) + "_" + str(j) + ".h5"
-            main(clean_data_filename, bd_model_filename, prune_model_filename)
+    prune_model_filename = "models/repair_anonymous_2_bd_net.h5"
+    main(clean_data_filename, bd_model_filename, prune_model_filename)
+    # for i in [0.1, 0.2, 0.3, 0.4, 0.5]:
+    #     for j in [0, 10, 20, 30, 40, 50, 60, 70]:
+    #         prune_model_filename = "repair_anonymous_2_bd_net_" + str(i) + "_" + str(j) + ".h5"
+    #         print(prune_model_filename)
+    #         main(clean_data_filename, bd_model_filename, prune_model_filename)

@@ -27,8 +27,8 @@ def G(bd_model, prune_model, bd_x_test, bd_y_test):
 
 
 def main(clean_data_filename, poisoned_data_filenames, bd_model_filename, prune_model_filename):
-    clean_accuracy = 0.0
-    asr = 0.0
+    clean_accuracies = 0.0
+    asrs = 0.0
     for poisoned_data_filename in poisoned_data_filenames:
         cl_x_test, cl_y_test = data_loader(clean_data_filename)
         bd_x_test, bd_y_test = data_loader(poisoned_data_filename)
@@ -37,21 +37,30 @@ def main(clean_data_filename, poisoned_data_filenames, bd_model_filename, prune_
         prune_model = keras.models.load_model(prune_model_filename)
 
         cl_label_p = np.argmax(prune_model.predict(cl_x_test), axis=1)
-        clean_accuracy += np.mean(np.equal(cl_label_p, cl_y_test)) * 100
+        clean_accuracy = np.mean(np.equal(cl_label_p, cl_y_test)) * 100
+        print('Clean Classification accuracy on ', poisoned_data_filename, ":", clean_accuracy)
+        clean_accuracies += clean_accuracy
 
 
         bd_label_p = G(bd_model, prune_model, bd_x_test, bd_y_test)
-        asr += np.mean(np.equal(bd_label_p, bd_y_test)) * 100
+        asr = np.mean(np.equal(bd_label_p, bd_y_test)) * 100
+        print('Attack Success Rate on ', poisoned_data_filename, ':', asr)
+        asrs += asr
 
-    print('Clean Classification accuracy:', clean_accuracy/len(poisoned_data_filenames))
-    print('Attack Success Rate:', asr/len(poisoned_data_filenames))
+    print('Average Clean Classification accuracy:', clean_accuracies/len(poisoned_data_filenames))
+    print('Average Attack Success Rate:', asrs/len(poisoned_data_filenames))
 
 
 if __name__ == '__main__':
     clean_data_filename = "data/clean_test_data.h5"
     poisoned_data_filename = ["data/Multi-trigger/eyebrows_poisoned_data.h5", "data/Multi-trigger/lipstick_poisoned_data.h5", "data/Multi-trigger/sunglasses_poisoned_data.h5"]
     bd_model_filename = "models/multi_trigger_multi_target_bd_net.h5"
-    for i in [0.1, 0.2, 0.3, 0.4, 0.5]:
-        for j in [0, 10, 20, 30, 40, 50, 60, 70]:
-            prune_model_filename = "repair_multi_trigger_multi_target_bd_net_" + str(i) + "_" + str(j) + ".h5"
-            main(clean_data_filename, poisoned_data_filename, bd_model_filename, prune_model_filename)
+    prune_model_filename = "models/repair_multi_trigger_multi_target_bd_net.h5"
+    main(clean_data_filename, poisoned_data_filename, bd_model_filename, prune_model_filename)
+
+    # for i in [0.1, 0.2, 0.3, 0.4, 0.5]:
+    # for i in [0.1, 0.2, 0.3, 0.4, 0.5]:
+    #     for j in [0, 10, 20, 30, 40, 50, 60, 70]:
+    #         prune_model_filename = "repair_multi_trigger_multi_target_bd_net_" + str(i) + "_" + str(j) + ".h5"
+    #         print(prune_model_filename)
+    #         main(clean_data_filename, poisoned_data_filename, bd_model_filename, prune_model_filename)
