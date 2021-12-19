@@ -84,3 +84,8 @@
 
 ## V. Project Report
    Project report can be read [here](ProjectReport.pdf).
+## VI. Reference
+   CSAW-HackML-2020    https://github.com/csaw-hackml/CSAW-HackML-2020
+   Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks   https://arxiv.org/pdf/1805.12185.pdf
+   Scalable Training of Artificial Neural Networks with Adaptive Sparse Connectivity inspired by Network Science∗  https://arxiv.org/pdf/1707.04780.pdf
+   blog: Neural Network Pruning 101 https://towardsdatascience.com/neural-network-pruning-101-af816aaea61
