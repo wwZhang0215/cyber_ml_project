@@ -1,6 +1,7 @@
 # MLforCyberSec Project
 ##### Wenwei Zhang(wz2037) Linnan Zhang(lz2400) Tianhao Wang(tw2245)
 ### Link to [Github](https://github.com/wwZhang0215/cyber_ml_project)
+### Link to [Project Report](ProjectReport.pdf)
 
 ```bash
 ├── data 
